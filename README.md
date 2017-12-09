@@ -24,6 +24,9 @@ groupadd ftpaccess
 > configure ssh  
 
 ```sh
+# permit password login
+PasswordAuthentication yes
+
 # edit sshd_config file
 nano /etc/ssh/sshd_config
  
